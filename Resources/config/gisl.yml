@@ -1,0 +1,14 @@
+parameters:
+    gisl.lexer.class:       nnscr\GISL\Lexer
+    gisl.parser.class:      nnscr\GISL\Parser
+    gisl.interpreter.class: nnscr\GISL\Interpreter
+
+services:
+    gisl.lexer:
+        class: %gisl.lexer.class%
+
+    gisl.parser:
+        class: %gisl.parser.class%
+
+    gisl.interpreter:
+        class: %gisl.interpreter.class%

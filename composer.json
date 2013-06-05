@@ -1,0 +1,27 @@
+{
+	"name": "nnscr/gisl-bundle",
+	"description": "A symfony2 bundle for gisl",
+	"minimum-stability": "dev",
+	"homepage": "https://github.com/nnscr/gisl-bundle",
+	"license": "MIT",
+	"type": "symfony-bundle",
+	"authors": [
+		{
+			"name": "nnscr",
+			"email": "info@nnscr.de"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"nnscr/gisl": "dev-master",
+		"symfony/dependency-injection": "~2.2",
+		"symfony/http-kernel": "~2.2",
+		"symfony/config": "~2.2"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/nnscr/gisl"
+		}
+	]
+}
