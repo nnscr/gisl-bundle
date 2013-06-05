@@ -20,4 +20,3 @@ services:
             - [ setLexer, [@gisl.lexer]]
             - [ setParser, [@gisl.parser]]
             - [ setInterpreter, [@gisl.interpreter]]
-
