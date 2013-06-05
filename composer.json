@@ -23,5 +23,6 @@
 			"type": "vcs",
 			"url": "https://github.com/nnscr/gisl"
 		}
-	]
+	],
+	"autoload": {"nnscr\\GISLBundle": ""}
 }
