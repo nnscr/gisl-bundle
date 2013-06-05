@@ -7,3 +7,4 @@ It offers some services for the Dependency Injection component:
 * gisl.lexer
 * gisl.parser
 * gisl.interpreter
+* gisl

@@ -2,6 +2,7 @@ parameters:
     gisl.lexer.class:       nnscr\GISL\Lexer
     gisl.parser.class:      nnscr\GISL\Parser
     gisl.interpreter.class: nnscr\GISL\Interpreter
+    gisl.class:             nnscr\GISL\GISL
 
 services:
     gisl.lexer:
@@ -12,3 +13,11 @@ services:
 
     gisl.interpreter:
         class: %gisl.interpreter.class%
+
+    gisl:
+        class: %gisl.class%
+        calls:
+            - [ setLexer, [@gisl.lexer]]
+            - [ setParser, [@gisl.parser]]
+            - [ setInterpreter, [@gisl.interpreter]]
+
