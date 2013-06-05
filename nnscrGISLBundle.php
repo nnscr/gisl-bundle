@@ -1,5 +1,5 @@
 <?php
-namespace nnscr\GISL;
+namespace nnscr\GISLBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

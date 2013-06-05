@@ -24,5 +24,8 @@
 			"url": "https://github.com/nnscr/gisl"
 		}
 	],
-	"autoload": {"nnscr\\GISLBundle": ""}
+	"autoload": {
+		"psr-0": {"nnscr\\GISLBundle\\": ""}
+	},
+	"target-dir": "nnscr/GISLBundle"
 }

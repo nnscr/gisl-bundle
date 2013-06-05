@@ -1,5 +1,5 @@
 <?php
-namespace nnscr\GISL\DependencyInjection;
+namespace nnscr\GISLBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
